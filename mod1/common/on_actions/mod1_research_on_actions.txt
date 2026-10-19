@@ -1,0 +1,22 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { is_ai = no }
+				set_variable = { mod1_tech_folder = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 1 }
+				set_variable = { mod1_frame_armour_folder_tab = 1 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
+				set_variable = { mod1_frame_artillery_folder_tab = 1 }
+				set_variable = { mod1_frame_naval_folder_tab = 1 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
+				set_variable = { mod1_frame_industry_folder_tab = 1 }
+				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+			}
+		}
+	}
+}

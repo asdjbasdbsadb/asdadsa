@@ -1,0 +1,11 @@
+mod1_research_category = {
+	icon = generic_research
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+	visible_when_empty = yes
+	priority = 100
+}

@@ -1,0 +1,182 @@
+# Test slice of the research automator.
+# One decision is defined for each possible slot. A country only sees slot N
+# while it currently has at least N research slots. Slots above 10 are not listed.
+mod1_research_category = {
+
+	mod1_setup_decisions = {
+		icon = generic_research
+		priority = 100
+		allowed = { always = yes }
+		visible = { always = yes }
+		available = { always = yes }
+		cost = 0
+		fire_only_once = no
+		ai_will_do = { factor = 0 }
+		complete_effect = {
+			set_variable = { mod1_tech_folder = 1 }
+			set_variable = { mod1_frame_infantry_folder_tab = 2 }
+			set_variable = { mod1_frame_support_folder_tab = 1 }
+			set_variable = { mod1_frame_armour_folder_tab = 1 }
+			set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
+			set_variable = { mod1_frame_artillery_folder_tab = 1 }
+			set_variable = { mod1_frame_naval_folder_tab = 1 }
+			set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
+			set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
+			set_variable = { mod1_frame_air_techs_folder_tab = 1 }
+			set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
+			set_variable = { mod1_frame_industry_folder_tab = 1 }
+			set_variable = { mod1_frame_electronics_folder_tab = 1 }
+			set_country_flag = mod1_tech_view_open
+		}
+	}
+
+	mod1_research_slot_1 = {
+		icon = generic_research
+		priority = 10
+		allowed = { always = yes }
+		visible = { amount_research_slots > 0 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_2 = {
+		icon = generic_research
+		priority = 9
+		allowed = { always = yes }
+		visible = { amount_research_slots > 1 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_3 = {
+		icon = generic_research
+		priority = 8
+		allowed = { always = yes }
+		visible = { amount_research_slots > 2 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_4 = {
+		icon = generic_research
+		priority = 7
+		allowed = { always = yes }
+		visible = { amount_research_slots > 3 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_5 = {
+		icon = generic_research
+		priority = 6
+		allowed = { always = yes }
+		visible = { amount_research_slots > 4 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_6 = {
+		icon = generic_research
+		priority = 5
+		allowed = { always = yes }
+		visible = { amount_research_slots > 5 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_7 = {
+		icon = generic_research
+		priority = 4
+		allowed = { always = yes }
+		visible = { amount_research_slots > 6 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_8 = {
+		icon = generic_research
+		priority = 3
+		allowed = { always = yes }
+		visible = { amount_research_slots > 7 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_9 = {
+		icon = generic_research
+		priority = 2
+		allowed = { always = yes }
+		visible = { amount_research_slots > 8 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+
+	mod1_research_slot_10 = {
+		icon = generic_research
+		priority = 1
+		allowed = { always = yes }
+		visible = { amount_research_slots > 9 }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = mod1_research_slot_test_tt
+				always = no
+			}
+		}
+		cost = 0
+		ai_will_do = { factor = 0 }
+	}
+}
