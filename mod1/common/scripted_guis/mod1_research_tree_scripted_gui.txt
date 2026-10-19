@@ -97,183 +97,183 @@ scripted_gui = {
 			}
 			mod1_infantry_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 1 }
-				set_variable = { mod1_frame_infantry_folder_tab = 2 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 1 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_support_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 2 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 2 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 1 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_armour_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 3 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 2 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 1 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_nsb_armour_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 4 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_artillery_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 5 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 2 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 1 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_naval_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 6 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 2 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 1 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_mtgnavalfolder_tab_click = {
 				set_variable = { mod1_tech_folder = 7 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_mtgnavalsupportfolder_tab_click = {
 				set_variable = { mod1_tech_folder = 8 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_air_techs_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 9 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_bba_air_techs_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 10 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_industry_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 11 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 2 }
-				set_variable = { mod1_frame_electronics_folder_tab = 1 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 1 }
+				set_variable = { mod1_frame_electronics_folder_tab = 2 }
 			}
 			mod1_electronics_folder_tab_click = {
 				set_variable = { mod1_tech_folder = 12 }
-				set_variable = { mod1_frame_infantry_folder_tab = 1 }
-				set_variable = { mod1_frame_support_folder_tab = 1 }
-				set_variable = { mod1_frame_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_nsb_armour_folder_tab = 1 }
-				set_variable = { mod1_frame_artillery_folder_tab = 1 }
-				set_variable = { mod1_frame_naval_folder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalfolder_tab = 1 }
-				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 1 }
-				set_variable = { mod1_frame_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_bba_air_techs_folder_tab = 1 }
-				set_variable = { mod1_frame_industry_folder_tab = 1 }
-				set_variable = { mod1_frame_electronics_folder_tab = 2 }
+				set_variable = { mod1_frame_infantry_folder_tab = 2 }
+				set_variable = { mod1_frame_support_folder_tab = 2 }
+				set_variable = { mod1_frame_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_nsb_armour_folder_tab = 2 }
+				set_variable = { mod1_frame_artillery_folder_tab = 2 }
+				set_variable = { mod1_frame_naval_folder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalfolder_tab = 2 }
+				set_variable = { mod1_frame_mtgnavalsupportfolder_tab = 2 }
+				set_variable = { mod1_frame_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_bba_air_techs_folder_tab = 2 }
+				set_variable = { mod1_frame_industry_folder_tab = 2 }
+				set_variable = { mod1_frame_electronics_folder_tab = 1 }
 			}
 		}
 
