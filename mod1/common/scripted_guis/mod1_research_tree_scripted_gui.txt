@@ -10,6 +10,4009 @@ scripted_gui = {
 		}
 
 		triggers = {
+			# researched backgrounds and country-specific icons
+			mod1_rs_infantry_folder_infantry_weapons_visible = {
+				has_tech = infantry_weapons
+			}
+			mod1_eq_infantry_folder_infantry_weapons_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_infantry_weapons_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_infantry_weapons_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_infantry_weapons_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_infantry_folder_infantry_weapons_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_infantry_weapons_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_infantry_folder_infantry_weapons_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_infantry_folder_infantry_weapons1_visible = {
+				has_tech = infantry_weapons1
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_POL_visible = {
+				original_tag = POL
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_infantry_folder_infantry_weapons1_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = ITA original_tag = POL original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_infantry_folder_infantry_weapons2_visible = {
+				has_tech = infantry_weapons2
+			}
+			mod1_rs_infantry_folder_improved_infantry_weapons_visible = {
+				has_tech = improved_infantry_weapons
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_POL_visible = {
+				original_tag = POL
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_infantry_folder_improved_infantry_weapons_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = POL original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_infantry_folder_improved_infantry_weapons_2_visible = {
+				has_tech = improved_infantry_weapons_2
+			}
+			mod1_rs_infantry_folder_infantry_at_visible = {
+				has_tech = infantry_at
+			}
+			mod1_rs_infantry_folder_infantry_at2_visible = {
+				has_tech = infantry_at2
+			}
+			mod1_rs_infantry_folder_advanced_infantry_weapons_visible = {
+				has_tech = advanced_infantry_weapons
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_POL_visible = {
+				original_tag = POL
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_infantry_folder_advanced_infantry_weapons_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = POL original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_infantry_folder_advanced_infantry_weapons2_visible = {
+				has_tech = advanced_infantry_weapons2
+			}
+			mod1_rs_infantry_folder_paratroopers_visible = {
+				has_tech = paratroopers
+			}
+			mod1_rs_infantry_folder_paratroopers2_visible = {
+				has_tech = paratroopers2
+			}
+			mod1_rs_infantry_folder_paratroopers3_visible = {
+				has_tech = paratroopers3
+			}
+			mod1_rs_infantry_folder_marines_visible = {
+				has_tech = marines
+			}
+			mod1_rs_infantry_folder_marines2_visible = {
+				has_tech = marines2
+			}
+			mod1_rs_infantry_folder_marines3_visible = {
+				has_tech = marines3
+			}
+			mod1_rs_infantry_folder_tech_mountaineers_visible = {
+				has_tech = tech_mountaineers
+			}
+			mod1_rs_infantry_folder_tech_mountaineers2_visible = {
+				has_tech = tech_mountaineers2
+			}
+			mod1_rs_infantry_folder_tech_mountaineers3_visible = {
+				has_tech = tech_mountaineers3
+			}
+			mod1_rs_infantry_folder_rangers_tech_visible = {
+				has_tech = rangers_tech
+			}
+			mod1_rs_infantry_folder_rangers_tech2_visible = {
+				has_tech = rangers_tech2
+			}
+			mod1_rs_infantry_folder_rangers_tech3_visible = {
+				has_tech = rangers_tech3
+			}
+			mod1_rs_infantry_folder_tech_special_forces_visible = {
+				has_tech = tech_special_forces
+			}
+			mod1_rs_infantry_folder_advanced_special_forces_visible = {
+				has_tech = advanced_special_forces
+			}
+			mod1_rs_infantry_folder_improved_special_forces_visible = {
+				has_tech = improved_special_forces
+			}
+			mod1_rs_infantry_folder_extreme_environment_training_visible = {
+				has_tech = extreme_environment_training
+			}
+			mod1_rs_infantry_folder_survival_training_visible = {
+				has_tech = survival_training
+			}
+			mod1_rs_infantry_folder_elite_forces_visible = {
+				has_tech = elite_forces
+			}
+			mod1_rs_infantry_folder_night_vision_visible = {
+				has_tech = night_vision
+			}
+			mod1_rs_infantry_folder_night_vision2_visible = {
+				has_tech = night_vision2
+			}
+			mod1_rs_infantry_folder_support_weapons_visible = {
+				has_tech = support_weapons
+			}
+			mod1_rs_infantry_folder_support_weapons2_visible = {
+				has_tech = support_weapons2
+			}
+			mod1_rs_infantry_folder_support_weapons3_visible = {
+				has_tech = support_weapons3
+			}
+			mod1_rs_infantry_folder_support_weapons4_visible = {
+				has_tech = support_weapons4
+			}
+			mod1_rs_infantry_folder_tech_trucks_visible = {
+				has_tech = tech_trucks
+			}
+			mod1_eq_infantry_folder_tech_trucks_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_infantry_folder_tech_trucks_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_tech_trucks_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_tech_trucks_HUN_visible = {
+				original_tag = HUN
+			}
+			mod1_eq_infantry_folder_tech_trucks_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_infantry_folder_tech_trucks_POL_visible = {
+				original_tag = POL
+			}
+			mod1_eq_infantry_folder_tech_trucks_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_infantry_folder_tech_trucks_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = HUN original_tag = ITA original_tag = POL original_tag = USA }
+			}
+			mod1_rs_infantry_folder_motorised_infantry_visible = {
+				has_tech = motorised_infantry
+			}
+			mod1_eq_infantry_folder_motorised_infantry_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_motorised_infantry_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_motorised_infantry_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_infantry_folder_motorised_infantry_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_infantry_folder_motorised_infantry_POL_visible = {
+				original_tag = POL
+			}
+			mod1_eq_infantry_folder_motorised_infantry_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_motorised_infantry_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_infantry_folder_motorised_infantry_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = ITA original_tag = JAP original_tag = POL original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_infantry_folder_armored_car1_visible = {
+				has_tech = armored_car1
+			}
+			mod1_eq_infantry_folder_armored_car1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_armored_car1_visible = {
+				NOT = { original_tag = FIN }
+			}
+			mod1_rs_infantry_folder_armored_car2_visible = {
+				has_tech = armored_car2
+			}
+			mod1_eq_infantry_folder_armored_car2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_armored_car2_visible = {
+				NOT = { original_tag = FIN }
+			}
+			mod1_rs_infantry_folder_armored_car3_visible = {
+				has_tech = armored_car3
+			}
+			mod1_eq_infantry_folder_armored_car3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_armored_car3_visible = {
+				NOT = { original_tag = FIN }
+			}
+			mod1_rs_infantry_folder_mechanised_infantry_visible = {
+				has_tech = mechanised_infantry
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_mechanised_infantry_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = GER original_tag = JAP original_tag = RAJ original_tag = SOV }
+			}
+			mod1_rs_infantry_folder_amphibious_mechanized_infantry_visible = {
+				has_tech = amphibious_mechanized_infantry
+			}
+			mod1_rs_infantry_folder_amphibious_mechanized_infantry_2_visible = {
+				has_tech = amphibious_mechanized_infantry_2
+			}
+			mod1_rs_infantry_folder_mechanised_infantry2_visible = {
+				has_tech = mechanised_infantry2
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_mechanised_infantry2_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = GER original_tag = JAP original_tag = RAJ original_tag = SOV }
+			}
+			mod1_rs_infantry_folder_mechanised_infantry3_visible = {
+				has_tech = mechanised_infantry3
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_infantry_folder_mechanised_infantry3_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = GER original_tag = JAP original_tag = RAJ original_tag = SOV }
+			}
+			mod1_rssub_infantry_folder_motorised_infantry_motorized_rocket_unit_visible = {
+				has_tech = motorized_rocket_unit
+			}
+			mod1_rssub_infantry_folder_armored_car3_armored_car_at_upgrade_visible = {
+				has_tech = armored_car_at_upgrade
+			}
+			mod1_rs_support_folder_radio_visible = {
+				has_tech = radio
+			}
+			mod1_rs_support_folder_motorised_infantry_visible = {
+				has_tech = motorised_infantry
+			}
+			mod1_eq_support_folder_motorised_infantry_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_support_folder_motorised_infantry_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_support_folder_motorised_infantry_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_support_folder_motorised_infantry_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_support_folder_motorised_infantry_POL_visible = {
+				original_tag = POL
+			}
+			mod1_eq_support_folder_motorised_infantry_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_support_folder_motorised_infantry_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_support_folder_motorised_infantry_visible = {
+				NOT = { original_tag = FIN original_tag = FRA original_tag = ITA original_tag = JAP original_tag = POL original_tag = SOV original_tag = USA }
+			}
+			mod1_rssub_support_folder_motorised_infantry_motorized_rocket_unit_visible = {
+				has_tech = motorized_rocket_unit
+			}
+			mod1_rs_support_folder_tech_support_visible = {
+				has_tech = tech_support
+			}
+			mod1_rs_support_folder_tech_engineers_visible = {
+				has_tech = tech_engineers
+			}
+			mod1_rs_support_folder_tech_engineers2_visible = {
+				has_tech = tech_engineers2
+			}
+			mod1_rs_support_folder_tech_engineers3_visible = {
+				has_tech = tech_engineers3
+			}
+			mod1_rs_support_folder_tech_engineers4_visible = {
+				has_tech = tech_engineers4
+			}
+			mod1_rs_support_folder_tech_recon_visible = {
+				has_tech = tech_recon
+			}
+			mod1_rs_support_folder_tech_recon2_visible = {
+				has_tech = tech_recon2
+			}
+			mod1_rs_support_folder_tech_recon3_visible = {
+				has_tech = tech_recon3
+			}
+			mod1_rs_support_folder_tech_recon4_visible = {
+				has_tech = tech_recon4
+			}
+			mod1_rs_support_folder_tech_military_police_visible = {
+				has_tech = tech_military_police
+			}
+			mod1_rs_support_folder_tech_military_police2_visible = {
+				has_tech = tech_military_police2
+			}
+			mod1_rs_support_folder_tech_military_police3_visible = {
+				has_tech = tech_military_police3
+			}
+			mod1_rs_support_folder_tech_military_police4_visible = {
+				has_tech = tech_military_police4
+			}
+			mod1_rs_support_folder_tech_maintenance_company_visible = {
+				has_tech = tech_maintenance_company
+			}
+			mod1_rs_support_folder_tech_maintenance_company2_visible = {
+				has_tech = tech_maintenance_company2
+			}
+			mod1_rs_support_folder_tech_maintenance_company3_visible = {
+				has_tech = tech_maintenance_company3
+			}
+			mod1_rs_support_folder_tech_maintenance_company4_visible = {
+				has_tech = tech_maintenance_company4
+			}
+			mod1_rs_support_folder_tech_field_hospital_visible = {
+				has_tech = tech_field_hospital
+			}
+			mod1_rs_support_folder_tech_field_hospital2_visible = {
+				has_tech = tech_field_hospital2
+			}
+			mod1_rs_support_folder_tech_field_hospital3_visible = {
+				has_tech = tech_field_hospital3
+			}
+			mod1_rs_support_folder_tech_field_hospital4_visible = {
+				has_tech = tech_field_hospital4
+			}
+			mod1_rs_support_folder_tech_logistics_company_visible = {
+				has_tech = tech_logistics_company
+			}
+			mod1_rs_support_folder_tech_logistics_company2_visible = {
+				has_tech = tech_logistics_company2
+			}
+			mod1_rs_support_folder_tech_logistics_company3_visible = {
+				has_tech = tech_logistics_company3
+			}
+			mod1_rs_support_folder_tech_logistics_company4_visible = {
+				has_tech = tech_logistics_company4
+			}
+			mod1_rs_support_folder_tech_signal_company_visible = {
+				has_tech = tech_signal_company
+			}
+			mod1_rs_support_folder_tech_signal_company2_visible = {
+				has_tech = tech_signal_company2
+			}
+			mod1_rs_support_folder_tech_signal_company3_visible = {
+				has_tech = tech_signal_company3
+			}
+			mod1_rs_support_folder_tech_signal_company4_visible = {
+				has_tech = tech_signal_company4
+			}
+			mod1_rs_support_folder_sp_armored_engineer_tech_visible = {
+				has_tech = sp_armored_engineer_tech
+			}
+			mod1_rs_support_folder_sp_armored_maintenance_tech_visible = {
+				has_tech = sp_armored_maintenance_tech
+			}
+			mod1_rs_support_folder_sp_armored_signal_tech_visible = {
+				has_tech = sp_armored_signal_tech
+			}
+			mod1_rs_support_folder_sp_helicopter_transport_pods_tech_visible = {
+				has_tech = sp_helicopter_transport_pods_tech
+			}
+			mod1_rs_support_folder_sp_helicopter_artillery_observers_tech_visible = {
+				has_tech = sp_helicopter_artillery_observers_tech
+			}
+			mod1_rs_support_folder_sp_helicopter_med_evac_tech_visible = {
+				has_tech = sp_helicopter_med_evac_tech
+			}
+			mod1_rs_support_folder_sp_armored_motorized_military_police_tech_visible = {
+				has_tech = sp_armored_motorized_military_police_tech
+			}
+			mod1_rs_support_folder_basic_train_visible = {
+				has_tech = basic_train
+			}
+			mod1_eq_support_folder_basic_train_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_support_folder_basic_train_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_support_folder_basic_train_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_support_folder_basic_train_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_support_folder_basic_train_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_support_folder_basic_train_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_support_folder_basic_train_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_support_folder_basic_train_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_support_folder_railway_gun_visible = {
+				has_tech = railway_gun
+			}
+			mod1_eq_support_folder_railway_gun_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_support_folder_railway_gun_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_support_folder_railway_gun_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_support_folder_railway_gun_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_support_folder_railway_gun_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_support_folder_railway_gun_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_support_folder_railway_gun_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_support_folder_railway_gun_visible = {
+				NOT = { original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_support_folder_wartime_train_visible = {
+				has_tech = wartime_train
+			}
+			mod1_eq_support_folder_wartime_train_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_support_folder_wartime_train_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_support_folder_wartime_train_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_support_folder_wartime_train_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_support_folder_wartime_train_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_support_folder_wartime_train_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_support_folder_wartime_train_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_support_folder_armored_train_visible = {
+				has_tech = armored_train
+			}
+			mod1_eq_support_folder_armored_train_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_support_folder_armored_train_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_support_folder_armored_train_visible = {
+				NOT = { original_tag = GER original_tag = SOV }
+			}
+			mod1_rs_armour_folder_sp_armored_lc_naval_engine_conversion_tech_visible = {
+				has_tech = sp_armored_lc_naval_engine_conversion_tech
+			}
+			mod1_rs_armour_folder_sp_armored_lc_transmission_improvements_tech_visible = {
+				has_tech = sp_armored_lc_transmission_improvements_tech
+			}
+			mod1_rs_armour_folder_sp_armored_lc_specialized_field_manuals_tech_visible = {
+				has_tech = sp_armored_lc_specialized_field_manuals_tech
+			}
+			mod1_rs_armour_folder_sp_armored_lc_weapon_fire_control_tech_visible = {
+				has_tech = sp_armored_lc_weapon_fire_control_tech
+			}
+			mod1_rs_armour_folder_gwtank_visible = {
+				has_tech = gwtank
+			}
+			mod1_eq_armour_folder_gwtank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_gwtank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_gwtank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_gwtank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_gwtank_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_armour_folder_gwtank_visible = {
+				NOT = { original_tag = CHI original_tag = FIN original_tag = GER original_tag = PRC original_tag = RAJ }
+			}
+			mod1_rs_armour_folder_basic_light_tank_visible = {
+				has_tech = basic_light_tank
+			}
+			mod1_eq_armour_folder_basic_light_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_basic_light_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_basic_light_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_basic_light_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_basic_light_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_basic_light_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_basic_light_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_basic_light_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_basic_light_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_basic_light_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_basic_light_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_improved_light_tank_visible = {
+				has_tech = improved_light_tank
+			}
+			mod1_eq_armour_folder_improved_light_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_improved_light_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_improved_light_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_improved_light_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_improved_light_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_improved_light_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_improved_light_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_improved_light_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_improved_light_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_improved_light_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_improved_light_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_amphibious_tank_visible = {
+				has_tech = amphibious_tank
+			}
+			mod1_rs_armour_folder_amphibious_tank_2_visible = {
+				has_tech = amphibious_tank_2
+			}
+			mod1_rs_armour_folder_advanced_light_tank_visible = {
+				has_tech = advanced_light_tank
+			}
+			mod1_eq_armour_folder_advanced_light_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_advanced_light_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_advanced_light_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_advanced_light_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_advanced_light_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_advanced_light_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_advanced_light_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_advanced_light_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_advanced_light_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_advanced_light_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_advanced_light_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_basic_medium_tank_visible = {
+				has_tech = basic_medium_tank
+			}
+			mod1_eq_armour_folder_basic_medium_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_basic_medium_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_basic_medium_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_basic_medium_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_basic_medium_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_basic_medium_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_basic_medium_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_basic_medium_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_basic_medium_tank_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_armour_folder_basic_medium_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_basic_medium_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_basic_medium_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = RAJ original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_improved_medium_tank_visible = {
+				has_tech = improved_medium_tank
+			}
+			mod1_eq_armour_folder_improved_medium_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_improved_medium_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_improved_medium_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_improved_medium_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_improved_medium_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_improved_medium_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_improved_medium_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_improved_medium_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_improved_medium_tank_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_armour_folder_improved_medium_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_improved_medium_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_improved_medium_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = RAJ original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_advanced_medium_tank_visible = {
+				has_tech = advanced_medium_tank
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_advanced_medium_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = RAJ original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_main_battle_tank_visible = {
+				has_tech = main_battle_tank
+			}
+			mod1_eq_armour_folder_main_battle_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_main_battle_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_main_battle_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_main_battle_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_main_battle_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_main_battle_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_main_battle_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_main_battle_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_main_battle_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_main_battle_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_main_battle_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_basic_heavy_tank_visible = {
+				has_tech = basic_heavy_tank
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_basic_heavy_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_improved_heavy_tank_visible = {
+				has_tech = improved_heavy_tank
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_improved_heavy_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_advanced_heavy_tank_visible = {
+				has_tech = advanced_heavy_tank
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_advanced_heavy_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_armour_folder_super_heavy_tank_visible = {
+				has_tech = super_heavy_tank
+			}
+			mod1_eq_armour_folder_super_heavy_tank_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_armour_folder_super_heavy_tank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_armour_folder_super_heavy_tank_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_armour_folder_super_heavy_tank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_armour_folder_super_heavy_tank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_armour_folder_super_heavy_tank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_armour_folder_super_heavy_tank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_armour_folder_super_heavy_tank_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_armour_folder_super_heavy_tank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_armour_folder_super_heavy_tank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_armour_folder_super_heavy_tank_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rssub_armour_folder_basic_light_tank_basic_light_td_visible = {
+				has_tech = basic_light_td
+			}
+			mod1_rssub_armour_folder_basic_light_tank_basic_light_art_visible = {
+				has_tech = basic_light_art
+			}
+			mod1_rssub_armour_folder_basic_light_tank_basic_light_spaa_visible = {
+				has_tech = basic_light_spaa
+			}
+			mod1_rssub_armour_folder_improved_light_tank_improved_light_td_visible = {
+				has_tech = improved_light_td
+			}
+			mod1_rssub_armour_folder_improved_light_tank_improved_light_art_visible = {
+				has_tech = improved_light_art
+			}
+			mod1_rssub_armour_folder_improved_light_tank_improved_light_spaa_visible = {
+				has_tech = improved_light_spaa
+			}
+			mod1_rssub_armour_folder_advanced_light_tank_advanced_light_td_visible = {
+				has_tech = advanced_light_td
+			}
+			mod1_rssub_armour_folder_advanced_light_tank_advanced_light_art_visible = {
+				has_tech = advanced_light_art
+			}
+			mod1_rssub_armour_folder_advanced_light_tank_advanced_light_spaa_visible = {
+				has_tech = advanced_light_spaa
+			}
+			mod1_rssub_armour_folder_basic_medium_tank_basic_medium_td_visible = {
+				has_tech = basic_medium_td
+			}
+			mod1_rssub_armour_folder_basic_medium_tank_basic_medium_art_visible = {
+				has_tech = basic_medium_art
+			}
+			mod1_rssub_armour_folder_basic_medium_tank_basic_medium_spaa_visible = {
+				has_tech = basic_medium_spaa
+			}
+			mod1_rssub_armour_folder_improved_medium_tank_improved_medium_td_visible = {
+				has_tech = improved_medium_td
+			}
+			mod1_rssub_armour_folder_improved_medium_tank_improved_medium_art_visible = {
+				has_tech = improved_medium_art
+			}
+			mod1_rssub_armour_folder_improved_medium_tank_improved_medium_spaa_visible = {
+				has_tech = improved_medium_spaa
+			}
+			mod1_rssub_armour_folder_advanced_medium_tank_advanced_medium_td_visible = {
+				has_tech = advanced_medium_td
+			}
+			mod1_rssub_armour_folder_advanced_medium_tank_advanced_medium_art_visible = {
+				has_tech = advanced_medium_art
+			}
+			mod1_rssub_armour_folder_advanced_medium_tank_advanced_medium_spaa_visible = {
+				has_tech = advanced_medium_spaa
+			}
+			mod1_rssub_armour_folder_main_battle_tank_modern_td_visible = {
+				has_tech = modern_td
+			}
+			mod1_rssub_armour_folder_main_battle_tank_modern_art_visible = {
+				has_tech = modern_art
+			}
+			mod1_rssub_armour_folder_main_battle_tank_modern_spaa_visible = {
+				has_tech = modern_spaa
+			}
+			mod1_rssub_armour_folder_basic_heavy_tank_basic_heavy_td_visible = {
+				has_tech = basic_heavy_td
+			}
+			mod1_rssub_armour_folder_basic_heavy_tank_basic_heavy_art_visible = {
+				has_tech = basic_heavy_art
+			}
+			mod1_rssub_armour_folder_basic_heavy_tank_basic_heavy_spaa_visible = {
+				has_tech = basic_heavy_spaa
+			}
+			mod1_rssub_armour_folder_improved_heavy_tank_improved_heavy_td_visible = {
+				has_tech = improved_heavy_td
+			}
+			mod1_rssub_armour_folder_improved_heavy_tank_improved_heavy_art_visible = {
+				has_tech = improved_heavy_art
+			}
+			mod1_rssub_armour_folder_improved_heavy_tank_improved_heavy_spaa_visible = {
+				has_tech = improved_heavy_spaa
+			}
+			mod1_rssub_armour_folder_advanced_heavy_tank_advanced_heavy_td_visible = {
+				has_tech = advanced_heavy_td
+			}
+			mod1_rssub_armour_folder_advanced_heavy_tank_advanced_heavy_art_visible = {
+				has_tech = advanced_heavy_art
+			}
+			mod1_rssub_armour_folder_advanced_heavy_tank_advanced_heavy_spaa_visible = {
+				has_tech = advanced_heavy_spaa
+			}
+			mod1_rssub_armour_folder_super_heavy_tank_super_heavy_td_visible = {
+				has_tech = super_heavy_td
+			}
+			mod1_rssub_armour_folder_super_heavy_tank_super_heavy_art_visible = {
+				has_tech = super_heavy_art
+			}
+			mod1_rssub_armour_folder_super_heavy_tank_super_heavy_spaa_visible = {
+				has_tech = super_heavy_spaa
+			}
+			mod1_rs_nsb_armour_folder_gwtank_chassis_visible = {
+				has_tech = gwtank_chassis
+			}
+			mod1_rs_nsb_armour_folder_basic_light_tank_chassis_visible = {
+				has_tech = basic_light_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_basic_light_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_improved_light_tank_chassis_visible = {
+				has_tech = improved_light_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_improved_light_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_amphibious_tank_chassis_visible = {
+				has_tech = amphibious_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_amphibious_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_amphibious_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_amphibious_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_amphibious_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_amphibious_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_amphibious_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = GER original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_amphibious_drive_visible = {
+				has_tech = amphibious_drive
+			}
+			mod1_rs_nsb_armour_folder_advanced_light_tank_chassis_visible = {
+				has_tech = advanced_light_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_advanced_light_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_basic_medium_tank_chassis_visible = {
+				has_tech = basic_medium_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_basic_medium_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_improved_medium_tank_chassis_visible = {
+				has_tech = improved_medium_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_improved_medium_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_advanced_medium_tank_chassis_visible = {
+				has_tech = advanced_medium_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_advanced_medium_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_main_battle_tank_chassis_visible = {
+				has_tech = main_battle_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_main_battle_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_basic_heavy_tank_chassis_visible = {
+				has_tech = basic_heavy_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_basic_heavy_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_improved_heavy_tank_chassis_visible = {
+				has_tech = improved_heavy_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_improved_heavy_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_advanced_heavy_tank_chassis_visible = {
+				has_tech = advanced_heavy_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_advanced_heavy_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_super_heavy_tank_chassis_visible = {
+				has_tech = super_heavy_tank_chassis
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_nsb_armour_folder_super_heavy_tank_chassis_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_nsb_armour_folder_sp_armored_advanced_flamethrower_tech_visible = {
+				has_tech = sp_armored_advanced_flamethrower_tech
+			}
+			mod1_rs_nsb_armour_folder_sp_armored_lc_naval_engine_conversion_tech_visible = {
+				has_tech = sp_armored_lc_naval_engine_conversion_tech
+			}
+			mod1_rs_nsb_armour_folder_sp_armored_lc_transmission_improvements_tech_visible = {
+				has_tech = sp_armored_lc_transmission_improvements_tech
+			}
+			mod1_rs_nsb_armour_folder_sp_armored_lc_specialized_field_manuals_tech_visible = {
+				has_tech = sp_armored_lc_specialized_field_manuals_tech
+			}
+			mod1_rs_nsb_armour_folder_sp_armored_lc_weapon_fire_control_tech_visible = {
+				has_tech = sp_armored_lc_weapon_fire_control_tech
+			}
+			mod1_rs_nsb_armour_folder_sp_armored_lc_high_impact_obliterator_cannon_tech_visible = {
+				has_tech = sp_armored_lc_high_impact_obliterator_cannon_tech
+			}
+			mod1_rs_nsb_armour_folder_armor_tech_1_visible = {
+				has_tech = armor_tech_1
+			}
+			mod1_rs_nsb_armour_folder_armor_tech_2_visible = {
+				has_tech = armor_tech_2
+			}
+			mod1_rs_nsb_armour_folder_armor_tech_3_visible = {
+				has_tech = armor_tech_3
+			}
+			mod1_rs_nsb_armour_folder_armor_tech_4_visible = {
+				has_tech = armor_tech_4
+			}
+			mod1_rs_nsb_armour_folder_engine_tech_1_visible = {
+				has_tech = engine_tech_1
+			}
+			mod1_rs_nsb_armour_folder_engine_tech_2_visible = {
+				has_tech = engine_tech_2
+			}
+			mod1_rs_nsb_armour_folder_engine_tech_3_visible = {
+				has_tech = engine_tech_3
+			}
+			mod1_rs_nsb_armour_folder_engine_tech_4_visible = {
+				has_tech = engine_tech_4
+			}
+			mod1_rs_artillery_folder_gw_artillery_visible = {
+				has_tech = gw_artillery
+			}
+			mod1_eq_artillery_folder_gw_artillery_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_gw_artillery_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_gw_artillery_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_gw_artillery_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_gw_artillery_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_gw_artillery_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_gw_artillery_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_gw_artillery_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_interwar_artillery_visible = {
+				has_tech = interwar_artillery
+			}
+			mod1_rs_artillery_folder_artillery1_visible = {
+				has_tech = artillery1
+			}
+			mod1_eq_artillery_folder_artillery1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_artillery1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_artillery1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_artillery1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_artillery1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_artillery1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_artillery1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_artillery1_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_artillery2_visible = {
+				has_tech = artillery2
+			}
+			mod1_rs_artillery_folder_artillery3_visible = {
+				has_tech = artillery3
+			}
+			mod1_rs_artillery_folder_artillery4_visible = {
+				has_tech = artillery4
+			}
+			mod1_eq_artillery_folder_artillery4_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_artillery4_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_artillery4_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_artillery4_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_artillery4_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_artillery4_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_artillery4_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_artillery4_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_artillery5_visible = {
+				has_tech = artillery5
+			}
+			mod1_rs_artillery_folder_rocket_artillery_visible = {
+				has_tech = rocket_artillery
+			}
+			mod1_eq_artillery_folder_rocket_artillery_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_rocket_artillery_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_rocket_artillery_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_rocket_artillery_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_rocket_artillery_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_rocket_artillery_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_rocket_artillery_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_rocket_artillery_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_rocket_artillery2_visible = {
+				has_tech = rocket_artillery2
+			}
+			mod1_rs_artillery_folder_rocket_artillery3_visible = {
+				has_tech = rocket_artillery3
+			}
+			mod1_rs_artillery_folder_rocket_artillery4_visible = {
+				has_tech = rocket_artillery4
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_rocket_artillery4_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_interwar_antiair_visible = {
+				has_tech = interwar_antiair
+			}
+			mod1_eq_artillery_folder_interwar_antiair_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_interwar_antiair_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_interwar_antiair_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_interwar_antiair_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_interwar_antiair_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_interwar_antiair_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_interwar_antiair_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV }
+			}
+			mod1_rs_artillery_folder_antiair1_visible = {
+				has_tech = antiair1
+			}
+			mod1_rs_artillery_folder_antiair2_visible = {
+				has_tech = antiair2
+			}
+			mod1_eq_artillery_folder_antiair2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_antiair2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_antiair2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_antiair2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_antiair2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_antiair2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_antiair2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_antiair2_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_antiair3_visible = {
+				has_tech = antiair3
+			}
+			mod1_rs_artillery_folder_antiair4_visible = {
+				has_tech = antiair4
+			}
+			mod1_rs_artillery_folder_antiair5_visible = {
+				has_tech = antiair5
+			}
+			mod1_eq_artillery_folder_antiair5_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_antiair5_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_antiair5_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_antiair5_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_antiair5_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_antiair5_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_antiair5_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_antiair5_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_interwar_antitank_visible = {
+				has_tech = interwar_antitank
+			}
+			mod1_eq_artillery_folder_interwar_antitank_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_interwar_antitank_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_interwar_antitank_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_interwar_antitank_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_interwar_antitank_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_interwar_antitank_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_interwar_antitank_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_interwar_antitank_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_antitank1_visible = {
+				has_tech = antitank1
+			}
+			mod1_rs_artillery_folder_antitank2_visible = {
+				has_tech = antitank2
+			}
+			mod1_eq_artillery_folder_antitank2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_antitank2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_antitank2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_antitank2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_antitank2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_antitank2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_antitank2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_antitank2_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_antitank3_visible = {
+				has_tech = antitank3
+			}
+			mod1_rs_artillery_folder_antitank4_visible = {
+				has_tech = antitank4
+			}
+			mod1_rs_artillery_folder_antitank5_visible = {
+				has_tech = antitank5
+			}
+			mod1_eq_artillery_folder_antitank5_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_artillery_folder_antitank5_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_artillery_folder_antitank5_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_artillery_folder_antitank5_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_artillery_folder_antitank5_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_artillery_folder_antitank5_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_artillery_folder_antitank5_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_artillery_folder_antitank5_visible = {
+				NOT = { original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_artillery_folder_sp_artillery_rocket_assisted_projectiles_tech_visible = {
+				has_tech = sp_artillery_rocket_assisted_projectiles_tech
+			}
+			mod1_rs_artillery_folder_sp_artillery_purpose_built_gun_motor_carriages_tech_visible = {
+				has_tech = sp_artillery_purpose_built_gun_motor_carriages_tech
+			}
+			mod1_rs_artillery_folder_sp_shock_hardening_techniques_visible = {
+				has_tech = sp_shock_hardening_techniques
+			}
+			mod1_rs_artillery_folder_sp_variable_time_fuze_shells_visible = {
+				has_tech = sp_variable_time_fuze_shells
+			}
+			mod1_rs_artillery_folder_sp_advance_sabot_shells_visible = {
+				has_tech = sp_advance_sabot_shells
+			}
+			mod1_rs_naval_folder_sp_multi_product_supply_ships_visible = {
+				has_tech = sp_multi_product_supply_ships
+			}
+			mod1_rs_naval_folder_sp_standard_tenshioned_replenishment_alongside_method_visible = {
+				has_tech = sp_standard_tenshioned_replenishment_alongside_method
+			}
+			mod1_rs_naval_folder_transport_visible = {
+				has_tech = transport
+			}
+			mod1_rs_naval_folder_landing_craft_visible = {
+				has_tech = landing_craft
+			}
+			mod1_rs_naval_folder_tank_landing_craft_visible = {
+				has_tech = tank_landing_craft
+			}
+			mod1_rs_naval_folder_early_destroyer_visible = {
+				has_tech = early_destroyer
+			}
+			mod1_rs_naval_folder_basic_destroyer_visible = {
+				has_tech = basic_destroyer
+			}
+			mod1_rs_naval_folder_improved_destroyer_visible = {
+				has_tech = improved_destroyer
+			}
+			mod1_rs_naval_folder_advanced_destroyer_visible = {
+				has_tech = advanced_destroyer
+			}
+			mod1_rs_naval_folder_early_light_cruiser_visible = {
+				has_tech = early_light_cruiser
+			}
+			mod1_rs_naval_folder_basic_light_cruiser_visible = {
+				has_tech = basic_light_cruiser
+			}
+			mod1_rs_naval_folder_improved_light_cruiser_visible = {
+				has_tech = improved_light_cruiser
+			}
+			mod1_rs_naval_folder_advanced_light_cruiser_visible = {
+				has_tech = advanced_light_cruiser
+			}
+			mod1_rs_naval_folder_early_heavy_cruiser_visible = {
+				has_tech = early_heavy_cruiser
+			}
+			mod1_rs_naval_folder_basic_heavy_cruiser_visible = {
+				has_tech = basic_heavy_cruiser
+			}
+			mod1_rs_naval_folder_improved_heavy_cruiser_visible = {
+				has_tech = improved_heavy_cruiser
+			}
+			mod1_rs_naval_folder_advanced_heavy_cruiser_visible = {
+				has_tech = advanced_heavy_cruiser
+			}
+			mod1_rs_naval_folder_early_battlecruiser_visible = {
+				has_tech = early_battlecruiser
+			}
+			mod1_rs_naval_folder_basic_battlecruiser_visible = {
+				has_tech = basic_battlecruiser
+			}
+			mod1_rs_naval_folder_early_battleship_visible = {
+				has_tech = early_battleship
+			}
+			mod1_rs_naval_folder_basic_battleship_visible = {
+				has_tech = basic_battleship
+			}
+			mod1_rs_naval_folder_improved_battleship_visible = {
+				has_tech = improved_battleship
+			}
+			mod1_rs_naval_folder_advanced_battleship_visible = {
+				has_tech = advanced_battleship
+			}
+			mod1_rs_naval_folder_heavy_battleship2_visible = {
+				has_tech = heavy_battleship2
+			}
+			mod1_rs_naval_folder_early_carrier_visible = {
+				has_tech = early_carrier
+			}
+			mod1_rs_naval_folder_basic_carrier_visible = {
+				has_tech = basic_carrier
+			}
+			mod1_rs_naval_folder_improved_carrier_visible = {
+				has_tech = improved_carrier
+			}
+			mod1_rs_naval_folder_advanced_carrier_visible = {
+				has_tech = advanced_carrier
+			}
+			mod1_rs_naval_folder_early_submarine_visible = {
+				has_tech = early_submarine
+			}
+			mod1_rs_naval_folder_basic_submarine_visible = {
+				has_tech = basic_submarine
+			}
+			mod1_rs_naval_folder_improved_submarine_visible = {
+				has_tech = improved_submarine
+			}
+			mod1_rs_naval_folder_advanced_submarine_visible = {
+				has_tech = advanced_submarine
+			}
+			mod1_rs_mtgnavalfolder_early_ship_hull_light_visible = {
+				has_tech = early_ship_hull_light
+			}
+			mod1_rs_mtgnavalfolder_basic_ship_hull_light_visible = {
+				has_tech = basic_ship_hull_light
+			}
+			mod1_rs_mtgnavalfolder_improved_ship_hull_light_visible = {
+				has_tech = improved_ship_hull_light
+			}
+			mod1_rs_mtgnavalfolder_advanced_ship_hull_light_visible = {
+				has_tech = advanced_ship_hull_light
+			}
+			mod1_rs_mtgnavalfolder_smoke_generator_visible = {
+				has_tech = smoke_generator
+			}
+			mod1_rs_mtgnavalfolder_basic_depth_charges_visible = {
+				has_tech = basic_depth_charges
+			}
+			mod1_rs_mtgnavalfolder_improved_depth_charges_visible = {
+				has_tech = improved_depth_charges
+			}
+			mod1_rs_mtgnavalfolder_advanced_depth_charges_visible = {
+				has_tech = advanced_depth_charges
+			}
+			mod1_rs_mtgnavalfolder_modern_depth_charges_visible = {
+				has_tech = modern_depth_charges
+			}
+			mod1_rs_mtgnavalfolder_sonar_visible = {
+				has_tech = sonar
+			}
+			mod1_rs_mtgnavalfolder_improved_sonar_visible = {
+				has_tech = improved_sonar
+			}
+			mod1_rs_mtgnavalfolder_advanced_sonar_visible = {
+				has_tech = advanced_sonar
+			}
+			mod1_rs_mtgnavalfolder_modern_sonar_visible = {
+				has_tech = modern_sonar
+			}
+			mod1_rs_mtgnavalfolder_early_ship_hull_cruiser_visible = {
+				has_tech = early_ship_hull_cruiser
+			}
+			mod1_rs_mtgnavalfolder_basic_ship_hull_cruiser_visible = {
+				has_tech = basic_ship_hull_cruiser
+			}
+			mod1_rs_mtgnavalfolder_improved_ship_hull_cruiser_visible = {
+				has_tech = improved_ship_hull_cruiser
+			}
+			mod1_rs_mtgnavalfolder_advanced_ship_hull_cruiser_visible = {
+				has_tech = advanced_ship_hull_cruiser
+			}
+			mod1_rs_mtgnavalfolder_basic_cruiser_armor_scheme_visible = {
+				has_tech = basic_cruiser_armor_scheme
+			}
+			mod1_rs_mtgnavalfolder_basic_heavy_armor_scheme_visible = {
+				has_tech = basic_heavy_armor_scheme
+			}
+			mod1_rs_mtgnavalfolder_improved_heavy_armor_scheme_visible = {
+				has_tech = improved_heavy_armor_scheme
+			}
+			mod1_rs_mtgnavalfolder_early_ship_hull_heavy_visible = {
+				has_tech = early_ship_hull_heavy
+			}
+			mod1_rs_mtgnavalfolder_basic_ship_hull_heavy_visible = {
+				has_tech = basic_ship_hull_heavy
+			}
+			mod1_rs_mtgnavalfolder_improved_ship_hull_heavy_visible = {
+				has_tech = improved_ship_hull_heavy
+			}
+			mod1_rs_mtgnavalfolder_advanced_ship_hull_heavy_visible = {
+				has_tech = advanced_ship_hull_heavy
+			}
+			mod1_rs_mtgnavalfolder_early_ship_hull_carrier_visible = {
+				has_tech = early_ship_hull_carrier
+			}
+			mod1_rs_mtgnavalfolder_basic_ship_hull_carrier_visible = {
+				has_tech = basic_ship_hull_carrier
+			}
+			mod1_rs_mtgnavalfolder_improved_ship_hull_carrier_visible = {
+				has_tech = improved_ship_hull_carrier
+			}
+			mod1_rs_mtgnavalfolder_advanced_ship_hull_carrier_visible = {
+				has_tech = advanced_ship_hull_carrier
+			}
+			mod1_rs_mtgnavalfolder_sp_refined_pykrete_visible = {
+				has_tech = sp_refined_pykrete
+			}
+			mod1_rs_mtgnavalfolder_sp_ice_composite_runawayas_visible = {
+				has_tech = sp_ice_composite_runawayas
+			}
+			mod1_rs_mtgnavalfolder_early_ship_hull_submarine_visible = {
+				has_tech = early_ship_hull_submarine
+			}
+			mod1_rs_mtgnavalfolder_basic_ship_hull_submarine_visible = {
+				has_tech = basic_ship_hull_submarine
+			}
+			mod1_rs_mtgnavalfolder_improved_ship_hull_submarine_visible = {
+				has_tech = improved_ship_hull_submarine
+			}
+			mod1_rs_mtgnavalfolder_advanced_ship_hull_submarine_visible = {
+				has_tech = advanced_ship_hull_submarine
+			}
+			mod1_rs_mtgnavalfolder_basic_submarine_snorkel_visible = {
+				has_tech = basic_submarine_snorkel
+			}
+			mod1_rs_mtgnavalfolder_improved_submarine_snorkel_visible = {
+				has_tech = improved_submarine_snorkel
+			}
+			mod1_rs_mtgnavalfolder_sp_aip_engine_improved_tech_visible = {
+				has_tech = sp_aip_engine_improved_tech
+			}
+			mod1_rs_mtgnavalfolder_sp_aip_engine_advanced_tech_visible = {
+				has_tech = sp_aip_engine_advanced_tech
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_battery_visible = {
+				has_tech = basic_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_light_battery_visible = {
+				has_tech = basic_light_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_light_shell_visible = {
+				has_tech = basic_light_shell
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_light_battery_visible = {
+				has_tech = improved_light_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_light_shell_visible = {
+				has_tech = improved_light_shell
+			}
+			mod1_rs_mtgnavalsupportfolder_advanced_light_battery_visible = {
+				has_tech = advanced_light_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_heavy_battery_visible = {
+				has_tech = basic_heavy_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_heavy_battery_visible = {
+				has_tech = improved_heavy_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_advanced_heavy_battery_visible = {
+				has_tech = advanced_heavy_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_heavy_shell_visible = {
+				has_tech = basic_heavy_shell
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_heavy_shell_visible = {
+				has_tech = improved_heavy_shell
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_dp_light_battery_visible = {
+				has_tech = basic_dp_light_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_dp_light_battery_visible = {
+				has_tech = improved_dp_light_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_advanced_dp_light_battery_visible = {
+				has_tech = advanced_dp_light_battery
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_torpedo_visible = {
+				has_tech = basic_torpedo
+			}
+			mod1_rs_mtgnavalsupportfolder_magnetic_detonator_visible = {
+				has_tech = magnetic_detonator
+			}
+			mod1_rs_mtgnavalsupportfolder_homing_torpedo_visible = {
+				has_tech = homing_torpedo
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_ship_torpedo_launcher_visible = {
+				has_tech = improved_ship_torpedo_launcher
+			}
+			mod1_rs_mtgnavalsupportfolder_advanced_ship_torpedo_launcher_visible = {
+				has_tech = advanced_ship_torpedo_launcher
+			}
+			mod1_rs_mtgnavalsupportfolder_modern_ship_torpedo_launcher_visible = {
+				has_tech = modern_ship_torpedo_launcher
+			}
+			mod1_rs_mtgnavalsupportfolder_damage_control_1_visible = {
+				has_tech = damage_control_1
+			}
+			mod1_rs_mtgnavalsupportfolder_damage_control_2_visible = {
+				has_tech = damage_control_2
+			}
+			mod1_rs_mtgnavalsupportfolder_damage_control_3_visible = {
+				has_tech = damage_control_3
+			}
+			mod1_rs_mtgnavalsupportfolder_sp_improved_repair_ship_visible = {
+				has_tech = sp_improved_repair_ship
+			}
+			mod1_rs_mtgnavalsupportfolder_fire_control_methods_1_visible = {
+				has_tech = fire_control_methods_1
+			}
+			mod1_rs_mtgnavalsupportfolder_fire_control_methods_2_visible = {
+				has_tech = fire_control_methods_2
+			}
+			mod1_rs_mtgnavalsupportfolder_fire_control_methods_3_visible = {
+				has_tech = fire_control_methods_3
+			}
+			mod1_rs_mtgnavalsupportfolder_basic_naval_mines_visible = {
+				has_tech = basic_naval_mines
+			}
+			mod1_rs_mtgnavalsupportfolder_submarine_mine_laying_visible = {
+				has_tech = submarine_mine_laying
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_submarine_mine_laying_visible = {
+				has_tech = improved_submarine_mine_laying
+			}
+			mod1_rs_mtgnavalsupportfolder_improved_naval_mines_visible = {
+				has_tech = improved_naval_mines
+			}
+			mod1_rs_mtgnavalsupportfolder_degaussing_visible = {
+				has_tech = degaussing
+			}
+			mod1_rs_mtgnavalsupportfolder_advanced_naval_mines_visible = {
+				has_tech = advanced_naval_mines
+			}
+			mod1_rs_mtgnavalsupportfolder_airdrop_mines_visible = {
+				has_tech = airdrop_mines
+			}
+			mod1_rs_mtgnavalsupportfolder_airdrop_mines_bba_visible = {
+				has_tech = airdrop_mines_bba
+			}
+			mod1_rs_mtgnavalsupportfolder_airsweep_mines_visible = {
+				has_tech = airsweep_mines
+			}
+			mod1_rs_mtgnavalsupportfolder_airsweep_mines_bba_visible = {
+				has_tech = airsweep_mines_bba
+			}
+			mod1_rs_mtgnavalsupportfolder_mtg_transport_visible = {
+				has_tech = mtg_transport
+			}
+			mod1_rs_mtgnavalsupportfolder_mtg_landing_craft_visible = {
+				has_tech = mtg_landing_craft
+			}
+			mod1_rs_mtgnavalsupportfolder_mtg_tank_landing_craft_visible = {
+				has_tech = mtg_tank_landing_craft
+			}
+			mod1_rs_mtgnavalsupportfolder_sp_multi_product_supply_ships_visible = {
+				has_tech = sp_multi_product_supply_ships
+			}
+			mod1_rs_mtgnavalsupportfolder_sp_standard_tenshioned_replenishment_alongside_method_visible = {
+				has_tech = sp_standard_tenshioned_replenishment_alongside_method
+			}
+			mod1_rs_mtgnavalsupportfolder_sp_improved_support_ship_visible = {
+				has_tech = sp_improved_support_ship
+			}
+			mod1_rs_air_techs_folder_early_transport_plane_visible = {
+				has_tech = early_transport_plane
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_BEL_visible = {
+				original_tag = BEL
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_early_transport_plane_visible = {
+				NOT = { original_tag = BEL original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_improved_transport_plane_visible = {
+				has_tech = improved_transport_plane
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_BEL_visible = {
+				original_tag = BEL
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_improved_transport_plane_visible = {
+				NOT = { original_tag = BEL original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_strategic_airlifter_visible = {
+				has_tech = strategic_airlifter
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_BEL_visible = {
+				original_tag = BEL
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_strategic_airlifter_visible = {
+				NOT = { original_tag = BEL original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_early_fighter_visible = {
+				has_tech = early_fighter
+			}
+			mod1_eq_air_techs_folder_early_fighter_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_early_fighter_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_early_fighter_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_early_fighter_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_early_fighter_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_early_fighter_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_early_fighter_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_early_fighter_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_early_fighter_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_early_fighter_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_early_fighter_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_fighter1_visible = {
+				has_tech = fighter1
+			}
+			mod1_eq_air_techs_folder_fighter1_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_fighter1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_fighter1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_fighter1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_fighter1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_fighter1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_fighter1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_fighter1_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_fighter1_RAJ_visible = {
+				original_tag = RAJ
+			}
+			mod1_eq_air_techs_folder_fighter1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_fighter1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_fighter1_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = RAJ original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_fighter2_visible = {
+				has_tech = fighter2
+			}
+			mod1_eq_air_techs_folder_fighter2_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_fighter2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_fighter2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_fighter2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_fighter2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_fighter2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_fighter2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_fighter2_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_fighter2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_fighter2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_fighter2_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_fighter3_visible = {
+				has_tech = fighter3
+			}
+			mod1_eq_air_techs_folder_fighter3_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_fighter3_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_fighter3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_fighter3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_fighter3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_fighter3_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_fighter3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_fighter3_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_fighter3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_fighter3_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_fighter3_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_jet_fighter1_visible = {
+				has_tech = jet_fighter1
+			}
+			mod1_eq_air_techs_folder_jet_fighter1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_jet_fighter1_visible = {
+				NOT = { original_tag = GER }
+			}
+			mod1_rs_air_techs_folder_jet_fighter2_visible = {
+				has_tech = jet_fighter2
+			}
+			mod1_eq_air_techs_folder_jet_fighter2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_jet_fighter2_visible = {
+				NOT = { original_tag = GER }
+			}
+			mod1_rs_air_techs_folder_CAS1_visible = {
+				has_tech = CAS1
+			}
+			mod1_eq_air_techs_folder_CAS1_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_CAS1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_CAS1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_CAS1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_CAS1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_CAS1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_CAS1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_CAS1_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_CAS1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_CAS1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_CAS1_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_CAS2_visible = {
+				has_tech = CAS2
+			}
+			mod1_eq_air_techs_folder_CAS2_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_CAS2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_CAS2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_CAS2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_CAS2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_CAS2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_CAS2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_CAS2_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_CAS2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_CAS2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_CAS2_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_CAS3_visible = {
+				has_tech = CAS3
+			}
+			mod1_eq_air_techs_folder_CAS3_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_CAS3_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_CAS3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_CAS3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_CAS3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_CAS3_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_CAS3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_CAS3_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_CAS3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_CAS3_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_CAS3_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_naval_bomber1_visible = {
+				has_tech = naval_bomber1
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_naval_bomber1_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_naval_bomber2_visible = {
+				has_tech = naval_bomber2
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_naval_bomber2_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_naval_bomber3_visible = {
+				has_tech = naval_bomber3
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_naval_bomber3_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_sp_centrifugal_jet_tech_visible = {
+				has_tech = sp_centrifugal_jet_tech
+			}
+			mod1_rs_air_techs_folder_early_bomber_visible = {
+				has_tech = early_bomber
+			}
+			mod1_eq_air_techs_folder_early_bomber_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_early_bomber_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_early_bomber_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_early_bomber_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_early_bomber_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_early_bomber_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_early_bomber_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_early_bomber_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_early_bomber_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_early_bomber_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_early_bomber_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_heavy_fighter1_visible = {
+				has_tech = heavy_fighter1
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter1_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_heavy_fighter2_visible = {
+				has_tech = heavy_fighter2
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter2_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_heavy_fighter3_visible = {
+				has_tech = heavy_fighter3
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_heavy_fighter3_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_tactical_bomber1_visible = {
+				has_tech = tactical_bomber1
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber1_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_tactical_bomber2_visible = {
+				has_tech = tactical_bomber2
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber2_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_tactical_bomber3_visible = {
+				has_tech = tactical_bomber3
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_tactical_bomber3_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_jet_tactical_bomber1_visible = {
+				has_tech = jet_tactical_bomber1
+			}
+			mod1_eq_air_techs_folder_jet_tactical_bomber1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_jet_tactical_bomber1_visible = {
+				NOT = { original_tag = GER }
+			}
+			mod1_rs_air_techs_folder_jet_tactical_bomber2_visible = {
+				has_tech = jet_tactical_bomber2
+			}
+			mod1_rs_air_techs_folder_scout_plane1_visible = {
+				has_tech = scout_plane1
+			}
+			mod1_eq_air_techs_folder_scout_plane1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_scout_plane1_visible = {
+				NOT = { original_tag = FIN }
+			}
+			mod1_rs_air_techs_folder_scout_plane2_visible = {
+				has_tech = scout_plane2
+			}
+			mod1_eq_air_techs_folder_scout_plane2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_scout_plane2_visible = {
+				NOT = { original_tag = FIN }
+			}
+			mod1_rs_air_techs_folder_strategic_bomber1_visible = {
+				has_tech = strategic_bomber1
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber1_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_strategic_bomber2_visible = {
+				has_tech = strategic_bomber2
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber2_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_strategic_bomber3_visible = {
+				has_tech = strategic_bomber3
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_air_techs_folder_strategic_bomber3_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_air_techs_folder_jet_strategic_bomber1_visible = {
+				has_tech = jet_strategic_bomber1
+			}
+			mod1_rs_air_techs_folder_reinforced_wings_mothership_visible = {
+				has_tech = reinforced_wings_mothership
+			}
+			mod1_rs_air_techs_folder_miniature_fighters_visible = {
+				has_tech = miniature_fighters
+			}
+			mod1_rs_air_techs_folder_aerial_hangars_visible = {
+				has_tech = aerial_hangars
+			}
+			mod1_rs_bba_air_techs_folder_bba_early_transport_plane_visible = {
+				has_tech = bba_early_transport_plane
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_BEL_visible = {
+				original_tag = BEL
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_bba_early_transport_plane_visible = {
+				NOT = { original_tag = BEL original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_bba_improved_transport_plane_visible = {
+				has_tech = bba_improved_transport_plane
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_BEL_visible = {
+				original_tag = BEL
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_bba_improved_transport_plane_visible = {
+				NOT = { original_tag = BEL original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_bba_strategic_airlifter_visible = {
+				has_tech = bba_strategic_airlifter
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_BEL_visible = {
+				original_tag = BEL
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_bba_strategic_airlifter_visible = {
+				NOT = { original_tag = BEL original_tag = ENG original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_iw_small_airframe_visible = {
+				has_tech = iw_small_airframe
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_iw_small_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_basic_small_airframe_visible = {
+				has_tech = basic_small_airframe
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_basic_small_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_improved_small_airframe_visible = {
+				has_tech = improved_small_airframe
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_SWI_visible = {
+				original_tag = SWI
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_improved_small_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = SWI original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_advanced_small_airframe_visible = {
+				has_tech = advanced_small_airframe
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_small_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_modern_small_airframe_visible = {
+				has_tech = modern_small_airframe
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_modern_small_airframe_visible = {
+				NOT = { original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_iw_medium_airframe_visible = {
+				has_tech = iw_medium_airframe
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_iw_medium_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_basic_medium_airframe_visible = {
+				has_tech = basic_medium_airframe
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_basic_medium_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_improved_medium_airframe_visible = {
+				has_tech = improved_medium_airframe
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_improved_medium_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_advanced_medium_airframe_visible = {
+				has_tech = advanced_medium_airframe
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_medium_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_modern_medium_airframe_visible = {
+				has_tech = modern_medium_airframe
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_modern_medium_airframe_visible = {
+				NOT = { original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_iw_large_airframe_visible = {
+				has_tech = iw_large_airframe
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_iw_large_airframe_visible = {
+				NOT = { original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_basic_large_airframe_visible = {
+				has_tech = basic_large_airframe
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_basic_large_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_improved_large_airframe_visible = {
+				has_tech = improved_large_airframe
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_improved_large_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_advanced_large_airframe_visible = {
+				has_tech = advanced_large_airframe
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_CHI_visible = {
+				original_tag = CHI
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_PRC_visible = {
+				original_tag = PRC
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_advanced_large_airframe_visible = {
+				NOT = { original_tag = CHI original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = PRC original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_modern_large_airframe_visible = {
+				has_tech = modern_large_airframe
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_ENG_visible = {
+				original_tag = ENG
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_FIN_visible = {
+				original_tag = FIN
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_FRA_visible = {
+				original_tag = FRA
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_GER_visible = {
+				original_tag = GER
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_ITA_visible = {
+				original_tag = ITA
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_JAP_visible = {
+				original_tag = JAP
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_MAN_visible = {
+				original_tag = MAN
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_SOV_visible = {
+				original_tag = SOV
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_USA_visible = {
+				original_tag = USA
+			}
+			mod1_eq_bba_air_techs_folder_modern_large_airframe_visible = {
+				NOT = { original_tag = ENG original_tag = FIN original_tag = FRA original_tag = GER original_tag = ITA original_tag = JAP original_tag = MAN original_tag = SOV original_tag = USA }
+			}
+			mod1_rs_bba_air_techs_folder_reinforced_wings_mothership_visible = {
+				has_tech = reinforced_wings_mothership
+			}
+			mod1_rs_bba_air_techs_folder_miniature_fighters_visible = {
+				has_tech = miniature_fighters
+			}
+			mod1_rs_bba_air_techs_folder_aerial_hangars_visible = {
+				has_tech = aerial_hangars
+			}
+			mod1_rs_bba_air_techs_folder_early_bombs_visible = {
+				has_tech = early_bombs
+			}
+			mod1_rs_bba_air_techs_folder_heavy_bombs_visible = {
+				has_tech = heavy_bombs
+			}
+			mod1_rs_bba_air_techs_folder_armor_piercing_bombs_visible = {
+				has_tech = armor_piercing_bombs
+			}
+			mod1_rs_bba_air_techs_folder_photo_reconnaisance_visible = {
+				has_tech = photo_reconnaisance
+			}
+			mod1_rs_bba_air_techs_folder_air_torpedoe_1_visible = {
+				has_tech = air_torpedoe_1
+			}
+			mod1_rs_bba_air_techs_folder_air_torpedoe_2_visible = {
+				has_tech = air_torpedoe_2
+			}
+			mod1_rs_bba_air_techs_folder_air_torpedoe_3_visible = {
+				has_tech = air_torpedoe_3
+			}
+			mod1_rs_bba_air_techs_folder_aa_lmg_visible = {
+				has_tech = aa_lmg
+			}
+			mod1_rs_bba_air_techs_folder_survivability_studies_visible = {
+				has_tech = survivability_studies
+			}
+			mod1_rs_bba_air_techs_folder_aa_hmg_visible = {
+				has_tech = aa_hmg
+			}
+			mod1_rs_bba_air_techs_folder_aa_cannon_1_visible = {
+				has_tech = aa_cannon_1
+			}
+			mod1_rs_bba_air_techs_folder_aa_cannon_2_visible = {
+				has_tech = aa_cannon_2
+			}
+			mod1_rs_bba_air_techs_folder_aa_cannon_3_visible = {
+				has_tech = aa_cannon_3
+			}
+			mod1_rs_bba_air_techs_folder_engines_1_visible = {
+				has_tech = engines_1
+			}
+			mod1_rs_bba_air_techs_folder_engines_2_visible = {
+				has_tech = engines_2
+			}
+			mod1_rs_bba_air_techs_folder_engines_3_visible = {
+				has_tech = engines_3
+			}
+			mod1_rs_bba_air_techs_folder_engines_4_visible = {
+				has_tech = engines_4
+			}
+			mod1_rs_bba_air_techs_folder_range_improvements_visible = {
+				has_tech = range_improvements
+			}
+			mod1_rs_bba_air_techs_folder_aircraft_construction_visible = {
+				has_tech = aircraft_construction
+			}
+			mod1_rs_bba_air_techs_folder_sp_centrifugal_jet_tech_visible = {
+				has_tech = sp_centrifugal_jet_tech
+			}
+			mod1_rs_industry_folder_basic_machine_tools_visible = {
+				has_tech = basic_machine_tools
+			}
+			mod1_rs_industry_folder_improved_machine_tools_visible = {
+				has_tech = improved_machine_tools
+			}
+			mod1_rs_industry_folder_advanced_machine_tools_visible = {
+				has_tech = advanced_machine_tools
+			}
+			mod1_rs_industry_folder_assembly_line_production_visible = {
+				has_tech = assembly_line_production
+			}
+			mod1_rs_industry_folder_flexible_line_visible = {
+				has_tech = flexible_line
+			}
+			mod1_rs_industry_folder_streamlined_line_visible = {
+				has_tech = streamlined_line
+			}
+			mod1_rs_industry_folder_improved_equipment_conversion_visible = {
+				has_tech = improved_equipment_conversion
+			}
+			mod1_rs_industry_folder_advanced_equipment_conversion_visible = {
+				has_tech = advanced_equipment_conversion
+			}
+			mod1_rs_industry_folder_concentrated_industry_visible = {
+				has_tech = concentrated_industry
+			}
+			mod1_rs_industry_folder_concentrated_industry2_visible = {
+				has_tech = concentrated_industry2
+			}
+			mod1_rs_industry_folder_concentrated_industry3_visible = {
+				has_tech = concentrated_industry3
+			}
+			mod1_rs_industry_folder_concentrated_industry4_visible = {
+				has_tech = concentrated_industry4
+			}
+			mod1_rs_industry_folder_concentrated_industry5_visible = {
+				has_tech = concentrated_industry5
+			}
+			mod1_rs_industry_folder_dispersed_industry_visible = {
+				has_tech = dispersed_industry
+			}
+			mod1_rs_industry_folder_dispersed_industry2_visible = {
+				has_tech = dispersed_industry2
+			}
+			mod1_rs_industry_folder_dispersed_industry3_visible = {
+				has_tech = dispersed_industry3
+			}
+			mod1_rs_industry_folder_dispersed_industry4_visible = {
+				has_tech = dispersed_industry4
+			}
+			mod1_rs_industry_folder_dispersed_industry5_visible = {
+				has_tech = dispersed_industry5
+			}
+			mod1_rs_industry_folder_fuel_silos_visible = {
+				has_tech = fuel_silos
+			}
+			mod1_rs_industry_folder_fuel_refining_visible = {
+				has_tech = fuel_refining
+			}
+			mod1_rs_industry_folder_fuel_refining2_visible = {
+				has_tech = fuel_refining2
+			}
+			mod1_rs_industry_folder_fuel_refining3_visible = {
+				has_tech = fuel_refining3
+			}
+			mod1_rs_industry_folder_fuel_refining4_visible = {
+				has_tech = fuel_refining4
+			}
+			mod1_rs_industry_folder_fuel_refining5_visible = {
+				has_tech = fuel_refining5
+			}
+			mod1_rs_industry_folder_synth_oil_experiments_visible = {
+				has_tech = synth_oil_experiments
+			}
+			mod1_rs_industry_folder_oil_processing_visible = {
+				has_tech = oil_processing
+			}
+			mod1_rs_industry_folder_improved_oil_processing_visible = {
+				has_tech = improved_oil_processing
+			}
+			mod1_rs_industry_folder_advanced_oil_processing_visible = {
+				has_tech = advanced_oil_processing
+			}
+			mod1_rs_industry_folder_modern_oil_processing_visible = {
+				has_tech = modern_oil_processing
+			}
+			mod1_rs_industry_folder_rubber_processing_visible = {
+				has_tech = rubber_processing
+			}
+			mod1_rs_industry_folder_improved_rubber_processing_visible = {
+				has_tech = improved_rubber_processing
+			}
+			mod1_rs_industry_folder_advanced_rubber_processing_visible = {
+				has_tech = advanced_rubber_processing
+			}
+			mod1_rs_industry_folder_modern_rubber_processing_visible = {
+				has_tech = modern_rubber_processing
+			}
+			mod1_rs_industry_folder_construction1_visible = {
+				has_tech = construction1
+			}
+			mod1_rs_industry_folder_excavation1_visible = {
+				has_tech = excavation1
+			}
+			mod1_rs_industry_folder_construction2_visible = {
+				has_tech = construction2
+			}
+			mod1_rs_industry_folder_excavation2_visible = {
+				has_tech = excavation2
+			}
+			mod1_rs_industry_folder_construction3_visible = {
+				has_tech = construction3
+			}
+			mod1_rs_industry_folder_excavation3_visible = {
+				has_tech = excavation3
+			}
+			mod1_rs_industry_folder_construction4_visible = {
+				has_tech = construction4
+			}
+			mod1_rs_industry_folder_excavation4_visible = {
+				has_tech = excavation4
+			}
+			mod1_rs_industry_folder_construction5_visible = {
+				has_tech = construction5
+			}
+			mod1_rs_industry_folder_excavation5_visible = {
+				has_tech = excavation5
+			}
+			mod1_rs_electronics_folder_electronic_mechanical_engineering_visible = {
+				has_tech = electronic_mechanical_engineering
+			}
+			mod1_rs_electronics_folder_radio_visible = {
+				has_tech = radio
+			}
+			mod1_rs_electronics_folder_improved_radio_visible = {
+				has_tech = improved_radio
+			}
+			mod1_rs_electronics_folder_advanced_radio_visible = {
+				has_tech = advanced_radio
+			}
+			mod1_rs_electronics_folder_cavity_magnatron_visible = {
+				has_tech = cavity_magnatron
+			}
+			mod1_rs_electronics_folder_centimetric_radar_visible = {
+				has_tech = centimetric_radar
+			}
+			mod1_rs_electronics_folder_phased_array_visible = {
+				has_tech = phased_array
+			}
+			mod1_rs_electronics_folder_monopulse_radar_visible = {
+				has_tech = monopulse_radar
+			}
+			mod1_rs_electronics_folder_mechanical_computing_visible = {
+				has_tech = mechanical_computing
+			}
+			mod1_rs_electronics_folder_computing_machine_visible = {
+				has_tech = computing_machine
+			}
+			mod1_rs_electronics_folder_improved_computing_machine_visible = {
+				has_tech = improved_computing_machine
+			}
+			mod1_rs_electronics_folder_advanced_computing_machine_visible = {
+				has_tech = advanced_computing_machine
+			}
+			mod1_rs_electronics_folder_basic_encryption_visible = {
+				has_tech = basic_encryption
+			}
+			mod1_rs_electronics_folder_improved_encryption_visible = {
+				has_tech = improved_encryption
+			}
+			mod1_rs_electronics_folder_advanced_encryption_visible = {
+				has_tech = advanced_encryption
+			}
+			mod1_rs_electronics_folder_basic_decryption_visible = {
+				has_tech = basic_decryption
+			}
+			mod1_rs_electronics_folder_improved_decryption_visible = {
+				has_tech = improved_decryption
+			}
+			mod1_rs_electronics_folder_advanced_decryption_visible = {
+				has_tech = advanced_decryption
+			}
+			mod1_rs_electronics_folder_basic_fire_control_system_visible = {
+				has_tech = basic_fire_control_system
+			}
+			mod1_rs_electronics_folder_improved_fire_control_system_visible = {
+				has_tech = improved_fire_control_system
+			}
+			mod1_rs_electronics_folder_advanced_fire_control_system_visible = {
+				has_tech = advanced_fire_control_system
+			}
+			mod1_rs_electronics_folder_basic_fortification_tech_visible = {
+				has_tech = basic_fortification_tech
+			}
+			mod1_rs_electronics_folder_land_fort_tech_1_visible = {
+				has_tech = land_fort_tech_1
+			}
+			mod1_rs_electronics_folder_land_fort_tech_2_visible = {
+				has_tech = land_fort_tech_2
+			}
+			mod1_rs_electronics_folder_coastal_fort_tech_1_visible = {
+				has_tech = coastal_fort_tech_1
+			}
+			mod1_rs_electronics_folder_coastal_fort_tech_2_visible = {
+				has_tech = coastal_fort_tech_2
+			}
+			mod1_rs_electronics_folder_experimental_rockets_visible = {
+				has_tech = experimental_rockets
+			}
+			mod1_rs_electronics_folder_sp_rockets_improved_guidance_visible = {
+				has_tech = sp_rockets_improved_guidance
+			}
+			mod1_rs_electronics_folder_sp_rockets_rocket_bomber_visible = {
+				has_tech = sp_rockets_rocket_bomber
+			}
+			mod1_rs_electronics_folder_sp_rockets_improved_rocket_bomber_visible = {
+				has_tech = sp_rockets_improved_rocket_bomber
+			}
+			mod1_rs_electronics_folder_sp_rockets_dual_chamber_rocket_engine_1_visible = {
+				has_tech = sp_rockets_dual_chamber_rocket_engine_1
+			}
+			mod1_rs_electronics_folder_sp_rockets_dual_chamber_rocket_engine_2_visible = {
+				has_tech = sp_rockets_dual_chamber_rocket_engine_2
+			}
+			mod1_rs_electronics_folder_atomic_research_visible = {
+				has_tech = atomic_research
+			}
 			mod1_infantry_folder_visible = {
 				check_variable = { mod1_tech_folder = 1 }
 			}
